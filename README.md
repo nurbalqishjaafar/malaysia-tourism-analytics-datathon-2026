@@ -37,7 +37,13 @@ The Power BI dashboard explores tourism performance through:
 - Market Diversification
 - Market Structure Analysis
 
-*Dashboard screenshots will be added here.*
+### Tourism Overview Dashboard
+
+![Tourism Overview Dashboard](images/Tourism%20Overview%20Dashboard.png)
+
+### Tourism Flow & Market Structure Dashboard
+
+![Tourism Flow and Market Structure Dashboard](images/Tourism%20Flow%20%26%20Market%20Structure%20Dashboard.png)
 
 ## 🤖 Machine Learning — K-Means Clustering
 
