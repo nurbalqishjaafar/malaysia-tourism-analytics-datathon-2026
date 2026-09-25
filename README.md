@@ -47,23 +47,60 @@ The Power BI dashboard explores tourism performance through:
 
 ## 🤖 Machine Learning — K-Means Clustering
 
-K-Means clustering was used to identify groups of states with similar tourism characteristics.
+### Why K-Means?
 
-The workflow includes:
+While Power BI helps visualise tourism patterns, K-Means clustering was used to identify groups of Malaysian states with similar tourism characteristics automatically.
+
+K-Means is an **unsupervised machine learning algorithm**, making it suitable for this project because the dataset does not contain predefined cluster labels.
+
+### Machine Learning Workflow
 
 1. Data preparation
 2. Feature selection
 3. Feature scaling
-4. Elbow Method
-5. K-Means clustering
-6. Cluster interpretation
-7. Integration of clustering results into Power BI
+4. Evaluation of different K values
+5. Elbow Method and Silhouette Score analysis
+6. K-Means clustering
+7. PCA visualisation
+8. Integration of cluster results into Power BI
 
-### Elbow Method
+### 📉 Selecting the Number of Clusters — Elbow Method
 
-The Elbow Method was used to determine an appropriate number of clusters by analysing how inertia changes as the number of clusters increases.
+To determine an appropriate number of clusters, K-Means was tested using **K = 2 to K = 6**.
 
-*Elbow Method visualisation will be added here.*
+![Elbow Method](images/elbow-method.png)
+
+The inertia values decreased as the number of clusters increased:
+
+| K | Inertia | Silhouette Score |
+|---|---:|---:|
+| 2 | 51.69 | 0.451 |
+| 3 | 34.21 | 0.367 |
+| 4 | 24.96 | 0.366 |
+| 5 | 19.76 | 0.223 |
+| 6 | 13.73 | 0.204 |
+
+The largest reduction in inertia occurred between **K = 2 and K = 3**, after which the improvements became more gradual.
+
+Although **K = 2 produced the highest Silhouette Score**, **K = 3** was selected as a practical balance between the Elbow Method and obtaining a more informative segmentation of tourism market structures.
+
+### 🧩 K-Means Clustering Result
+
+The final model was therefore developed using **three clusters**.
+
+![K-Means Clustering Result](images/kmeans-clustering-result.png)
+
+For visualisation, **Principal Component Analysis (PCA)** was used to reduce the clustering features into two dimensions.
+
+The PCA plot allows the cluster structure to be visualised while the K-Means model itself groups states according to the selected tourism characteristics.
+
+The resulting cluster labels were subsequently integrated into the Power BI dashboard to support interactive analysis and comparison between states.
+
+### 📓 Notebook
+
+The complete Python implementation, including data preprocessing, feature scaling, Elbow Method, Silhouette Score evaluation, K-Means clustering and PCA visualisation, is available here:
+
+➡️ [View K-Means Clustering Notebook](notebooks/tourism-kmeans-clustering.ipynb)
 
 ## 📈 Power BI Dashboard
 
