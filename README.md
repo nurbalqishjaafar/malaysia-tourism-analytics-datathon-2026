@@ -1,9 +1,7 @@
 # 🇲🇾 Malaysia Tourism Analytics — DOSM Datathon 2026
 **Power BI • Python • K-Means Clustering • PCA • Data Analytics • Data Visualization**
 
-> A data analytics and machine-learning project developed for DOSM Datathon 2026 to explore tourism trends and identify distinct tourism market structures across Malaysian states.
-
-An interactive tourism analytics project developed for **DOSM Datathon 2026**, combining **Power BI** visualisation with **Python and K-Means Clustering** to uncover tourism patterns across Malaysian states.
+> An interactive tourism analytics project developed for **DOSM Datathon 2026**, combining **Power BI** visualisation with **Python and K-Means Clustering** to uncover tourism patterns across Malaysian states.
 
 ## 📌 Project Overview
 
