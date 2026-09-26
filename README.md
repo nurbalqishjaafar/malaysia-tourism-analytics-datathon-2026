@@ -180,6 +180,13 @@ by the machine-learning model.
 
 📥 [Download the Power BI Dashboard](powerbi/Malaysia-Tourism-Analytics-Dashboard.pbix)
 
+## 📄 Project Report
+
+The complete written report documents the project's methodology, exploratory
+data analysis, machine-learning approach, findings and recommendations.
+
+📖 [View Project Report](report/DOSM-Datathon-2026-Tourism-Analytics-Report.pdf)
+
 ## 👥 Team
 
 Developed for **DOSM Datathon 2026** by:
