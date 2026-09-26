@@ -135,12 +135,29 @@ The complete Python implementation, including data preprocessing, feature scalin
 ➡️ [View K-Means Clustering Notebook](notebooks/tourism-kmeans-clustering.ipynb)
 
 
-
 ## 📈 Power BI Dashboard
 
-The final dashboard integrates exploratory analysis and machine-learning results to provide an interactive view of Malaysia's tourism landscape.
+The interactive Power BI dashboard combines tourism trends, tourism flows,
+market structure indicators and K-Means clustering results into a single
+analytical solution.
 
-*Final dashboard screenshot will be added here.*
+### Dashboard Components
+
+- Tourism Overview
+- State Trend Analysis
+- Tourism Flow Analysis
+- Local Dependency Analysis
+- Market Diversification
+- Market Structure Analysis
+- K-Means Cluster Segmentation
+
+### Interactive Features
+
+Users can explore tourism patterns through state and year filters, compare
+tourism market characteristics, and examine the cluster segmentation produced
+by the machine-learning model.
+
+📥 [Download the Power BI Dashboard](powerbi/Malaysia-Tourism-Analytics-Dashboard.pbix)
 
 ## 👥 Team
 
