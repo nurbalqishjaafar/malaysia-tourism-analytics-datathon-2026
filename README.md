@@ -169,6 +169,31 @@ This cluster consists of **Perlis, W.P. Labuan and W.P. Putrajaya**. Although av
 
 These characteristics suggest smaller tourism markets experiencing strong relative growth, providing potential opportunities for further tourism development.
 
+### 📊 ML Segmentation & Strategy Dashboard
+
+![ML Segmentation and Strategy Dashboard](images/ML%20Segmentation%20%26%20Strategy%20Dashboard.png)
+
+The K-Means clustering results were integrated into Power BI to transform
+the machine-learning output into actionable tourism insights.
+
+The dashboard compares the three tourism market segments across:
+
+- Average tourism intensity
+- Average year-on-year growth
+- Average local dependency
+- Average source diversification
+- Number of states within each segment
+- Recommended strategies for individual states
+
+The three identified market segments support differentiated strategies:
+
+- **Established & Diversified Tourism Markets** — Sustain & Optimize
+- **Locally Dependent Tourism Markets** — Diversify Source Markets
+- **Emerging High-Growth Markets** — Promote & Develop Capacity
+
+This demonstrates how the clustering results can be translated from
+analytical outputs into practical tourism strategy recommendations.
+
 ### 💡 Strategic Implications
 
 The clustering analysis suggests that tourism strategies can be differentiated according to market structure:
