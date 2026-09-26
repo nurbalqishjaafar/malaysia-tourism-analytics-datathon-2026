@@ -45,6 +45,27 @@ The Power BI dashboard explores tourism performance through:
 
 ![Tourism Flow and Market Structure Dashboard](images/Tourism%20Flow%20%26%20Market%20Structure%20Dashboard.png)
 
+## 🗂️ Dataset
+
+The analysis uses Malaysian tourism data for the DOSM Datathon 2026.
+
+For the machine-learning component, state-level tourism indicators were
+prepared into `ML_Features_2025.csv`.
+
+Key features include:
+
+- `Diversification_Score`
+- `Local_Dependency`
+- `Visitors_2025`
+- `YoY_Growth_2025`
+- `Population_2025`
+- `Tourism_Intensity`
+
+These indicators were used to analyse differences in tourism market
+structure and as inputs for the K-Means clustering analysis.
+
+📁 [View the processed ML dataset](data/ML_Features_2025.csv)
+
 ## 🤖 Machine Learning — K-Means Clustering
 
 ### Why K-Means?
