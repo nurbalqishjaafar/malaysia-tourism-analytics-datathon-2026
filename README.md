@@ -197,27 +197,48 @@ The complete Python implementation, including data preprocessing, feature scalin
 
 ## 📈 Power BI Dashboard
 
-The interactive Power BI dashboard combines tourism trends, tourism flows,
-market structure indicators and K-Means clustering results into a single
-analytical solution.
+Following the exploratory analysis and machine-learning stage, the key
+findings were consolidated into an interactive Power BI dashboard.
 
-### Dashboard Components
+The dashboard combines tourism performance indicators, market structure
+analysis and K-Means clustering results to support state-level comparison
+and tourism decision-making.
 
-- Tourism Overview
-- State Trend Analysis
-- Tourism Flow Analysis
-- Local Dependency Analysis
-- Market Diversification
-- Market Structure Analysis
-- K-Means Cluster Segmentation
+### 🏝️ Tourism Overview
 
-### Interactive Features
+![Tourism Overview Dashboard](images/Tourism%20Overview%20Dashboard.png)
 
-Users can explore tourism patterns through state and year filters, compare
-tourism market characteristics, and examine the cluster segmentation produced
-by the machine-learning model.
+The Tourism Overview provides a high-level summary of Malaysia's domestic
+tourism performance, including:
 
-📥 [Download the Power BI Dashboard](powerbi/Malaysia-Tourism-Analytics-Dashboard.pbix)
+- Total domestic visitors
+- Tourism expenditure
+- Year-on-year visitor growth
+- Average length of stay
+- State-level visitor volume and growth
+- Domestic visitor trends over time
+
+### 🗺️ Tourism Flow & Market Structure
+
+![Tourism Flow and Market Structure Dashboard](images/Tourism%20Flow%20%26%20Market%20Structure%20Dashboard.png)
+
+This dashboard focuses on tourism market structure and allows users to
+compare destinations based on:
+
+- Local Dependency
+- Source Market Diversification
+- Tourism market structure
+- K-Means cluster segmentation
+- State-level tourism characteristics
+
+The clustering results are integrated into Power BI to translate the
+machine-learning analysis into an interactive decision-support tool.
+
+### 📥 Power BI File
+
+The complete interactive dashboard is available as a Power BI project file:
+
+➡️ [Download Power BI Dashboard](powerbi/Malaysia-Tourism-Analytics-Dashboard.pbix)
 
 ## 📄 Project Report
 
