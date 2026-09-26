@@ -148,7 +148,18 @@ The clustering analysis suggests that tourism strategies can be differentiated a
 - **Established & Diversified Markets:** sustain existing market diversity and optimise tourism performance.
 - **Locally Dependent Markets:** expand and diversify visitor source markets.
 - **Emerging High-Growth Markets:** support growth while developing tourism capacity and maintaining momentum.
+  
+## 🔑 Key Findings
 
+The analysis revealed several important patterns in Malaysia's domestic tourism landscape:
+
+- Tourism performance varies considerably across Malaysian states, highlighting differences in visitor volume, growth and tourism intensity.
+- K-Means clustering identified **three distinct tourism market structures** rather than treating all states as having the same tourism characteristics.
+- **Cluster 0 — Established & Diversified Tourism Markets** recorded high average diversification (84.36) and relatively low local dependency (14.69).
+- **Cluster 1 — Locally Dependent Tourism Markets**, consisting of Sabah and Sarawak, recorded the highest average local dependency (70.22) and lower diversification (49.14).
+- **Cluster 2 — Emerging High-Growth Markets**, consisting of Perlis, W.P. Labuan and W.P. Putrajaya, recorded the highest average YoY growth (24.64%) and tourism intensity (14.90), despite having lower absolute visitor volume.
+- These differences suggest that tourism strategies can be tailored according to the market characteristics of each cluster rather than applying a single strategy across all states.
+  
 ### 📓 Notebook
 
 The complete Python implementation, including data preprocessing, feature scaling, Elbow Method, Silhouette Score evaluation, K-Means clustering and PCA visualisation, is available here:
