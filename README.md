@@ -96,11 +96,45 @@ The PCA plot allows the cluster structure to be visualised while the K-Means mod
 
 The resulting cluster labels were subsequently integrated into the Power BI dashboard to support interactive analysis and comparison between states.
 
+### 🔍 Cluster Interpretation
+
+The three clusters reveal distinct tourism market structures across Malaysian states.
+
+| Cluster | Market Segment | Diversification | Local Dependency | YoY Growth | Tourism Intensity |
+|---|---|---:|---:|---:|---:|
+| 0 | Established & Diversified Tourism Markets | 84.36 | 14.69 | 10.70% | 10.91 |
+| 1 | Locally Dependent Tourism Markets | 49.14 | 70.22 | 12.18% | 7.47 |
+| 2 | Emerging High-Growth Markets | 86.00 | 1.03 | 24.64% | 14.90 |
+
+**Cluster 0 — Established & Diversified Tourism Markets**
+
+This cluster has a high average diversification score (84.36) and relatively low local dependency (14.69), indicating tourism markets with a broader visitor base and comparatively established market structures.
+
+**Cluster 1 — Locally Dependent Tourism Markets**
+
+This cluster, consisting of **Sabah and Sarawak**, records the highest local dependency (70.22) and the lowest diversification score (49.14). This indicates stronger reliance on local tourism markets and highlights an opportunity to diversify visitor source markets.
+
+**Cluster 2 — Emerging High-Growth Markets**
+
+This cluster consists of **Perlis, W.P. Labuan and W.P. Putrajaya**. Although average visitor volume is considerably lower, the cluster records the highest YoY growth (24.64%), highest tourism intensity (14.90), very low local dependency (1.03), and high diversification (86.00).
+
+These characteristics suggest smaller tourism markets experiencing strong relative growth, providing potential opportunities for further tourism development.
+
+### 💡 Strategic Implications
+
+The clustering analysis suggests that tourism strategies can be differentiated according to market structure:
+
+- **Established & Diversified Markets:** sustain existing market diversity and optimise tourism performance.
+- **Locally Dependent Markets:** expand and diversify visitor source markets.
+- **Emerging High-Growth Markets:** support growth while developing tourism capacity and maintaining momentum.
+
 ### 📓 Notebook
 
 The complete Python implementation, including data preprocessing, feature scaling, Elbow Method, Silhouette Score evaluation, K-Means clustering and PCA visualisation, is available here:
 
 ➡️ [View K-Means Clustering Notebook](notebooks/tourism-kmeans-clustering.ipynb)
+
+
 
 ## 📈 Power BI Dashboard
 
