@@ -32,21 +32,46 @@ The project combines **Exploratory Data Analysis (EDA)** with **Machine Learning
 
 ## 📊 Exploratory Data Analysis
 
-The Power BI dashboard explores tourism performance through:
+Exploratory Data Analysis (EDA) was conducted in Power BI before the
+machine-learning stage to understand tourism trends, state-level performance,
+visitor flows and tourism market structures.
 
-- State Trend Analysis
-- Tourism Flow Analysis
-- Local Dependency
-- Market Diversification
-- Market Structure Analysis
+### 1. State Trend EDA
 
-### Tourism Overview Dashboard
+![State Trend EDA](images/State%20Trend%20EDA.png)
 
-![Tourism Overview Dashboard](images/Tourism%20Overview%20Dashboard.png)
+The State Trend EDA examines changes in domestic tourism performance across
+Malaysian states from 2018 to 2025.
 
-### Tourism Flow & Market Structure Dashboard
+The analysis includes:
 
-![Tourism Flow and Market Structure Dashboard](images/Tourism%20Flow%20%26%20Market%20Structure%20Dashboard.png)
+- Domestic visitor trends by state from 2018–2025
+- Comparison of domestic visitors between 2024 and 2025
+- Visitor volume by state in 2025
+- Year-on-year visitor growth by state
+- Relationship between visitor volume and growth
+
+The analysis helps distinguish states with high visitor volumes from states
+experiencing stronger relative growth.
+
+### 2. Tourism Flow EDA
+
+![Tourism Flow EDA](images/Tourism%20Flow%20EDA.png)
+
+The Tourism Flow EDA analyses how domestic visitors move between origin and
+destination states in 2025.
+
+The analysis includes:
+
+- Origin-to-destination tourism flow matrix
+- Top destinations by selected origin state
+- Local Dependency by destination state
+- Source Market Diversification by destination state
+- Comparison between Local Dependency and Source Diversification
+
+This analysis provides a deeper understanding of whether destinations rely
+heavily on local visitors or attract visitors from a more diversified range
+of source markets.
 
 ## 🗂️ Dataset
 
